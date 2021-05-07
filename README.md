@@ -11,8 +11,8 @@ from dataclasses import asdict, dataclass
 @dataclass
 class Stack:
     languages   : tuple = ("Python", "JS", "PHP")
-    databases   : tuple = ("PostgreSQL", "MYSQL", "Redis")
-    misc        : tuple = ("Docker", "Celery", "RabbitMQ")
+    databases   : tuple = ("PostgreSQL", "MYSQL", "MSSQL", "Redis")
+    misc        : tuple = ("Docker", "Celery", "RabbitMQ", "CI/CD")
     ongoing     : tuple = ("Django", "DRF", "nodejs")
 
     def serialize(self):
