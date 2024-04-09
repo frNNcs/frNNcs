@@ -1,22 +1,8 @@
-<h3>
+# Hi, I'm Francisco! 👋
+Full stack developer.
 
-```python
-import json
-from dataclasses import asdict, dataclass
-
-
-@dataclass
-class Stack:
-    languages   : tuple = ("Python", "JS", "PHP")
-    databases   : tuple = ("PostgreSQL", "MYSQL", "MSSQL", "Redis")
-    misc        : tuple = ("Docker", "Celery", "RabbitMQ", "CI/CD")
-    ongoing     : tuple = ("Django", "DRF", "nodejs", "solidity")
-
-    def serialize(self):
-        return json.dumps(asdict(self), indent=4)
-
-
-stack = Stack()
-print(stack.serialize())
-```
-</h3>
+## Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/francisco-etcheverri/)</br>
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/frnn_dev)</br>
+[![frnn.dev](https://img.shields.io/badge/frnn.dev/-000?style=for-the-badge&logoColor=white)](https://frnn.dev/)</br>
+[![curriculum](https://img.shields.io/badge/curriculum.md-000?style=for-the-badge&logoColor=cdd6f4)](https://gist.github.com/frNNcs/5a8fe1b0b3baddded90be4c49eb64993)</br>
